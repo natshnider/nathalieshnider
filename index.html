@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nathalie Shnider - Works</title>
+<meta name="description" content="Selected works in film.">
+
+
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="stage">
+
+    <header class="masthead">
+      <a class="wordmark" href="index.html">Nathalie</a>
+      <nav class="nav">
+        <div class="nav-item has-dropdown">
+          <a href="index.html" class="nav-trigger" aria-current="page">Works</a>
+          <button class="nav-caret" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Show works menu">▾</button>
+          <div class="nav-menu">
+            <a href="index.html" aria-current="page">Film</a>
+            <a href="treatments.html">Treatments</a>
+            <a href="photography.html">Photography</a>
+          </div>
+        </div>
+        <a href="profile.html">Profile</a>
+      </nav>
+    </header>
+
+    <h1 class="script stage-heading">Nathalie Shnider</h1>
+
+    <div class="reel" id="reel" aria-label="Selected works"></div>
+
+    <footer class="stage-foot">
+      <span class="foot-note">Toronto</span>
+    </footer>
+
+  </main>
+
+  <dialog class="sheet-dialog" id="sheet" aria-label="Work detail">
+    <div class="sheet"></div>
+  </dialog>
+
+  <script src="content.js"></script>
+  <script>const PAGE = PAGES.film;</script>
+  <script src="app.js"></script>
+</body>
+</html>
